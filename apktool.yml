@@ -1,0 +1,182 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: FloatingTunesFreeMusicVideoPlayer_v4.0.0_apkpure.com.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- assets/billboard.webp
+- assets/france_nrj.webp
+- assets/iTunes.webp
+- assets/kk_box.webp
+- assets/kpop_melon.webp
+- assets/new_bhajan.webp
+- assets/new_bollywood.webp
+- assets/new_children_music.webp
+- assets/new_christian_music.webp
+- assets/new_electro.webp
+- assets/new_ghazal.webp
+- assets/new_gospel.webp
+- assets/new_kpop.webp
+- assets/new_lullabies.webp
+- assets/new_nursery_rhymes.webp
+- assets/new_pop_music.webp
+- assets/new_qawwali.webp
+- assets/new_reggaeton.webp
+- assets/top_artist.webp
+- assets/top_mv.webp
+- assets/top_song.webp
+- assets/top_trend.webp
+- assets/trap_nation.webp
+- assets/uk_top.webp
+- png
+- jpg
+- res/drawable-xxhdpi-v4/logo_start.webp
+- wav
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '21'
+  targetSdkVersion: '28'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  firebase-ads.properties: '8'
+  firebase-analytics.properties: '8'
+  firebase-auth-interop.properties: '8'
+  firebase-common.properties: '8'
+  firebase-components.properties: '8'
+  firebase-core.properties: '8'
+  firebase-database-collection.properties: '8'
+  firebase-firestore.properties: '8'
+  firebase-iid-interop.properties: '8'
+  firebase-iid.properties: '8'
+  firebase-measurement-connector.properties: '8'
+  firebase-storage.properties: '8'
+  play-services-ads-base.properties: '8'
+  play-services-ads-identifier.properties: '8'
+  play-services-ads-lite.properties: '8'
+  play-services-ads.properties: '8'
+  play-services-base.properties: '8'
+  play-services-basement.properties: '8'
+  play-services-gass.properties: '8'
+  play-services-measurement-api.properties: '8'
+  play-services-measurement-base.properties: '8'
+  play-services-measurement-impl.properties: '8'
+  play-services-measurement-sdk-api.properties: '8'
+  play-services-measurement-sdk.properties: '8'
+  play-services-measurement.properties: '8'
+  play-services-stats.properties: '8'
+  play-services-tasks.properties: '8'
+  protolite-well-known-types.properties: '8'
+  fabric/com.crashlytics.sdk.android.answers.properties: '8'
+  fabric/com.crashlytics.sdk.android.beta.properties: '8'
+  fabric/com.crashlytics.sdk.android.crashlytics-core.properties: '8'
+  fabric/com.crashlytics.sdk.android.crashlytics.properties: '8'
+  fabric/io.fabric.sdk.android.fabric.properties: '8'
+  i18n/time_units_af.properties: '8'
+  i18n/time_units_am.properties: '8'
+  i18n/time_units_ar.properties: '8'
+  i18n/time_units_az.properties: '8'
+  i18n/time_units_be.properties: '8'
+  i18n/time_units_bg.properties: '8'
+  i18n/time_units_bn.properties: '8'
+  i18n/time_units_bs.properties: '8'
+  i18n/time_units_ca.properties: '8'
+  i18n/time_units_cs.properties: '8'
+  i18n/time_units_da.properties: '8'
+  i18n/time_units_de.properties: '8'
+  i18n/time_units_el.properties: '8'
+  i18n/time_units_en.properties: '8'
+  i18n/time_units_en_GB.properties: '8'
+  i18n/time_units_es.properties: '8'
+  i18n/time_units_es_419.properties: '8'
+  i18n/time_units_es_US.properties: '8'
+  i18n/time_units_et.properties: '8'
+  i18n/time_units_eu.properties: '8'
+  i18n/time_units_fa.properties: '8'
+  i18n/time_units_fi.properties: '8'
+  i18n/time_units_fil.properties: '8'
+  i18n/time_units_fr.properties: '8'
+  i18n/time_units_fr_CA.properties: '8'
+  i18n/time_units_gl.properties: '8'
+  i18n/time_units_gu.properties: '8'
+  i18n/time_units_hi.properties: '8'
+  i18n/time_units_hr.properties: '8'
+  i18n/time_units_hu.properties: '8'
+  i18n/time_units_hy.properties: '8'
+  i18n/time_units_id.properties: '8'
+  i18n/time_units_is.properties: '8'
+  i18n/time_units_it.properties: '8'
+  i18n/time_units_iw.properties: '8'
+  i18n/time_units_ja.properties: '8'
+  i18n/time_units_ka.properties: '8'
+  i18n/time_units_kk.properties: '8'
+  i18n/time_units_km.properties: '8'
+  i18n/time_units_kn.properties: '8'
+  i18n/time_units_ko.properties: '8'
+  i18n/time_units_ky.properties: '8'
+  i18n/time_units_lo.properties: '8'
+  i18n/time_units_lt.properties: '8'
+  i18n/time_units_lv.properties: '8'
+  i18n/time_units_mk.properties: '8'
+  i18n/time_units_ml.properties: '8'
+  i18n/time_units_mn.properties: '8'
+  i18n/time_units_mr.properties: '8'
+  i18n/time_units_ms.properties: '8'
+  i18n/time_units_my.properties: '8'
+  i18n/time_units_ne.properties: '8'
+  i18n/time_units_nl.properties: '8'
+  i18n/time_units_no.properties: '8'
+  i18n/time_units_pa.properties: '8'
+  i18n/time_units_pl.properties: '8'
+  i18n/time_units_pt.properties: '8'
+  i18n/time_units_pt_PT.properties: '8'
+  i18n/time_units_ro.properties: '8'
+  i18n/time_units_ru.properties: '8'
+  i18n/time_units_si.properties: '8'
+  i18n/time_units_sk.properties: '8'
+  i18n/time_units_sl.properties: '8'
+  i18n/time_units_sq.properties: '8'
+  i18n/time_units_sr.properties: '8'
+  i18n/time_units_sr_Latn.properties: '8'
+  i18n/time_units_sv.properties: '8'
+  i18n/time_units_sw.properties: '8'
+  i18n/time_units_ta.properties: '8'
+  i18n/time_units_te.properties: '8'
+  i18n/time_units_th.properties: '8'
+  i18n/time_units_tr.properties: '8'
+  i18n/time_units_uk.properties: '8'
+  i18n/time_units_ur.properties: '8'
+  i18n/time_units_uz.properties: '8'
+  i18n/time_units_vi.properties: '8'
+  i18n/time_units_zh_CN.properties: '8'
+  i18n/time_units_zh_HK.properties: '8'
+  i18n/time_units_zh_TW.properties: '8'
+  i18n/time_units_zu.properties: '8'
+  icepick/Bundler.java: '8'
+  icepick/Icepick.java: '8'
+  icepick/Injector.java: '8'
+  icepick/State.java: '8'
+  icepick/StateBundler.java: '8'
+  okhttp3/internal/publicsuffix/NOTICE: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '8'
+  org/mozilla/javascript/ES6Iterator.java.orig: '8'
+  org/mozilla/javascript/NativeString.java.orig: '8'
+  org/mozilla/javascript/Node.java.orig: '8'
+  org/mozilla/javascript/Parser.java.orig: '8'
+  org/mozilla/javascript/Token.java.orig: '8'
+  org/mozilla/javascript/resources/Messages.properties: '8'
+  org/mozilla/javascript/resources/Messages_fr.properties: '8'
+  org/mozilla/javascript/tools/debugger/build.xml: '8'
+  org/mozilla/javascript/tools/debugger/test.js: '8'
+  org/mozilla/javascript/tools/idswitch/README: '8'
+  org/mozilla/javascript/tools/resources/Messages.properties: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.1
+versionInfo:
+  versionCode: '400'
+  versionName: 4.0.0

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/rl_recently" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:foreground="@drawable/ripple_bg_white" app:cardCornerRadius="0.0dip" app:cardElevation="2.0dip" app:cardMaxElevation="2.0dip" app:layout_constraintEnd_toStartOf="@id/rl_my_favorite" app:layout_constraintHorizontal_weight="1.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/lll" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/ic_grid_recent" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+            <TextView android:textSize="16.0sp" android:textColor="@android:color/black" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/recent_played" android:layout_below="@id/lll" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@id/rl_my_favorite" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:foreground="@drawable/ripple_bg_white" app:cardCornerRadius="0.0dip" app:cardElevation="2.0dip" app:cardMaxElevation="2.0dip" app:layout_constraintEnd_toStartOf="@id/rl_local_music" app:layout_constraintHorizontal_weight="1.0" app:layout_constraintStart_toEndOf="@id/rl_recently" app:layout_constraintTop_toTopOf="parent">
+        <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/dddd" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/ic_grid_favorite" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+            <TextView android:textSize="16.0sp" android:textColor="@android:color/black" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/favorite" android:layout_below="@id/dddd" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@id/rl_local_music" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:foreground="@drawable/ripple_bg_white" app:cardCornerRadius="0.0dip" app:cardElevation="2.0dip" app:cardMaxElevation="2.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_weight="1.0" app:layout_constraintStart_toEndOf="@id/rl_my_favorite" app:layout_constraintTop_toTopOf="parent">
+        <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/ssss" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/ic_phone_android_black_24dp" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+            <TextView android:textSize="16.0sp" android:textColor="@android:color/black" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tap_my_local_music" android:layout_below="@id/ssss" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

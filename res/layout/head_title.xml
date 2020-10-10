@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.16sp" android:textSize="18.0sp" android:id="@id/tv_head" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_centerHorizontal="true" android:fontFamily="monospace" />
+    <View android:background="@color/black_alpha_1a" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginTop="5.0dip" android:layout_marginRight="@dimen/activity_horizontal_margin" android:layout_below="@id/tv_head"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</RelativeLayout>

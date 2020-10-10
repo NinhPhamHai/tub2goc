@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/activity_setting" android:background="@color/top_item" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:background="@color/top_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@color/top_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/rate_us" android:background="?selectableItemBackground" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/l5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setting_rate_24dp" android:layout_alignParentStart="true" />
+                <TextView android:textSize="17.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Rate_us" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/l5" />
+            </RelativeLayout>
+            <View android:background="@color/genres_text" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+            <RelativeLayout android:orientation="horizontal" android:id="@id/share_app" android:background="?selectableItemBackground" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/l4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_share_black_24dp" android:layout_alignParentStart="true" />
+                <TextView android:textSize="17.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_app" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/l4" />
+            </RelativeLayout>
+            <View android:background="@color/genres_text" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+            <RelativeLayout android:orientation="horizontal" android:id="@id/rl_lock" android:background="?selectableItemBackground" android:padding="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/ll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_screen_lock_portrait_black_24dp" android:layout_alignParentStart="true" />
+                <TextView android:textSize="17.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sleep_play" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/ll" />
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/cb_lock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View android:background="@color/genres_text" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_alignParentTop="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+            <RelativeLayout android:orientation="horizontal" android:id="@id/rl_download" android:background="?selectableItemBackground" android:padding="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/dddd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_file_download_black_24dp" android:layout_alignParentStart="true" />
+                <TextView android:textSize="17.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/downloads" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/dddd" />
+            </RelativeLayout>
+            <View android:background="@color/genres_text" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_alignParentTop="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+            <RelativeLayout android:orientation="horizontal" android:id="@id/sleep" android:background="?selectableItemBackground" android:padding="16.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/ddd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_access_time_black_24dp" android:layout_alignParentStart="true" />
+                <TextView android:textSize="17.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sleep_timer" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/ddd" />
+            </RelativeLayout>
+            <View android:background="@color/genres_text" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+            <RelativeLayout android:orientation="horizontal" android:id="@id/select_size" android:background="?selectableItemBackground" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/lp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_picture_in_picture_alt_black_24dp" android:layout_alignParentStart="true" />
+                <TextView android:textSize="17.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/choose_size" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/lp" />
+            </RelativeLayout>
+            <View android:background="@color/genres_text" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+            <RelativeLayout android:id="@id/privacy" android:background="?selectableItemBackground" android:padding="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/l3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_report_problem_black_24dp" android:layout_alignParentStart="true" />
+                <TextView android:textSize="17.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/privacy" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/l3" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/country" android:background="?selectableItemBackground" android:padding="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/l00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_public_black_24dp" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+                <TextView android:textSize="17.0sp" android:id="@id/tv_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_country" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/l00" />
+                <ImageView android:ellipsize="end" android:id="@id/iv_country" android:layout_width="36.0dip" android:layout_height="30.0dip" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View android:background="@color/genres_text" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+            <RelativeLayout android:orientation="horizontal" android:id="@id/power_saving" android:background="?selectableItemBackground" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/l17" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setting_power_24dp" android:layout_alignParentStart="true" />
+                <TextView android:textSize="17.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nav_power_saving" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/l17" />
+            </RelativeLayout>
+            <View android:background="@color/genres_text" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+            <RelativeLayout android:orientation="horizontal" android:id="@id/about_us_rl" android:background="?selectableItemBackground" android:padding="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/l7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setting_about_24dp" android:layout_alignParentStart="true" />
+                <TextView android:textSize="17.0sp" android:id="@id/about" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ads Privacy Settings" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/l7" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:id="@id/rl_sign_out" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_alignParentBottom="true">
+        <View android:background="@color/genres_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_alignParentTop="true" />
+        <TextView android:textSize="17.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SIGN OUT" android:layout_centerInParent="true" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
+    </RelativeLayout>
+</RelativeLayout>

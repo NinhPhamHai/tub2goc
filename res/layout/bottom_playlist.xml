@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/app_bar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/ll_play_now" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:padding="15.0dip" android:layout_width="@dimen/item_default_height_material" android:layout_height="@dimen/item_default_height_material" android:src="@drawable/bottom_play" />
+        <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bottom_play_now" android:layout_weight="1.0" />
+    </LinearLayout>
+    <include layout="@layout/divider" />
+    <LinearLayout android:id="@id/ll_add_queue" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:padding="15.0dip" android:layout_width="@dimen/item_default_height_material" android:layout_height="@dimen/item_default_height_material" android:src="@drawable/bottom_next" />
+        <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bottom_add_to_next" android:layout_weight="1.0" />
+    </LinearLayout>
+    <include layout="@layout/divider" />
+    <LinearLayout android:id="@id/ll_add_playlist" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:padding="15.0dip" android:layout_width="@dimen/item_default_height_material" android:layout_height="@dimen/item_default_height_material" android:src="@drawable/bottom_add" />
+        <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bottom_add_to_playlist" android:layout_weight="1.0" />
+    </LinearLayout>
+    <include layout="@layout/divider" />
+    <LinearLayout android:id="@id/ll_delete" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:padding="15.0dip" android:layout_width="@dimen/item_default_height_material" android:layout_height="@dimen/item_default_height_material" android:src="@drawable/bottom_delete" />
+        <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bottom_delete" android:layout_weight="1.0" />
+    </LinearLayout>
+    <include layout="@layout/divider" />
+    <LinearLayout android:id="@id/ll_share" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:padding="15.0dip" android:layout_width="@dimen/item_default_height_material" android:layout_height="@dimen/item_default_height_material" android:src="@drawable/bottom_share" />
+        <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bottom_share" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

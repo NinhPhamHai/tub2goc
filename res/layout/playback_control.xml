@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/playback_control" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="20.0dip" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/home" android:background="@drawable/service_exit_to_app_black_24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="25.0dip" android:layout_alignParentStart="true" />
+    <ImageView android:id="@id/power_mode" android:background="@drawable/setting_power_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="25.0dip" android:layout_alignParentEnd="true" />
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:id="@id/duration_start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:maxLines="1" />
+        <androidx.appcompat.widget.AppCompatSeekBar android:id="@id/seek_bar" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/Widget.AppCompat.SeekBar" />
+        <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:id="@id/duration_end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:maxLines="1" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginBottom="20.0dip" android:baselineAligned="false" android:layout_centerInParent="true" android:layout_marginStart="100.0dip" android:layout_marginEnd="100.0dip">
+        <ImageView android:id="@id/mode" android:background="@drawable/repeat" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <androidx.legacy.widget.Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="10.4" />
+        <ImageView android:id="@id/pre" android:background="@drawable/pre" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+        <androidx.legacy.widget.Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="10.4" />
+        <ImageView android:id="@id/play" android:background="@drawable/play" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+        <androidx.legacy.widget.Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="10.4" />
+        <ImageView android:id="@id/next" android:background="@drawable/next" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+        <androidx.legacy.widget.Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="10.4" />
+        <ImageView android:id="@id/full" android:background="@drawable/full" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10.0dip" />
+    </LinearLayout>
+</RelativeLayout>

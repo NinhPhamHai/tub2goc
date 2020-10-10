@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/thumbnail" android:layout_width="72.0dip" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/title" android:background="#ff3e3e3e" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="4" android:layout_weight="1.0" android:paddingStart="8.0dip" />
+    <ImageView android:id="@id/pause_play_video" android:background="#ff3e3e3e" android:layout_width="42.0dip" android:layout_height="fill_parent" android:src="@drawable/play" android:scaleType="centerInside" />
+    <ImageView android:id="@id/stop_service" android:background="#ff3e3e3e" android:layout_width="42.0dip" android:layout_height="fill_parent" android:src="@drawable/close" android:scaleType="centerInside" />
+</LinearLayout>

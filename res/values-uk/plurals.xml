@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="playing">
+        <item quantity="other">%d стежок грають.</item>
+        <item quantity="one">%d стежка грає.</item>
+        <item quantity="few">%d стежки грають.</item>
+        <item quantity="many">%d стежок грають.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.floatingtunes.youtubeplayer.topmusic.view.StatusBarView android:background="@drawable/bg_status_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidx.appcompat.widget.Toolbar android:id="@id/tool_bar" android:background="@drawable/tab_layout_bg" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:title="@string/downloads" app:titleTextColor="#ffffffff" />
+    <RelativeLayout android:id="@id/rl_video_path" android:background="?selectableItemBackground" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <TextView android:textSize="17.0sp" android:textColor="@color/black" android:id="@id/video" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/download_path_title" />
+        <TextView android:textColor="@color/black_alpha_80" android:id="@id/tv_video_path" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/video" />
+    </RelativeLayout>
+    <View android:background="@color/genres_text" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginTop="10.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    <RelativeLayout android:id="@id/rl_audio_path" android:background="?selectableItemBackground" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <TextView android:textSize="17.0sp" android:textColor="@color/black" android:id="@id/audio" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/download_path_audio_title" />
+        <TextView android:textColor="@color/black_alpha_80" android:id="@id/tv_audio_path" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/audio" />
+    </RelativeLayout>
+    <View android:background="@color/genres_text" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginTop="10.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root_parent" android:background="#ff000000" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/tool_bar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+    <RelativeLayout android:orientation="vertical" android:background="@color/com_facebook_blue" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="250.0dip">
+        <FrameLayout android:id="@id/player_container" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/player_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:id="@id/play_controller_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/play_bar_layout" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip" android:baselineAligned="false">
+                    <ImageButton android:id="@id/btn_down" android:tag="binding_4" android:visibility="visible" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_play_down" android:scaleType="centerInside" style="@style/Button.Action.White" />
+                    <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:textAppearance="@style/TextAppearance.16sp.White" android:textStyle="bold" android:gravity="center" android:id="@id/tv_song_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+                        <TextView android:textAppearance="@style/TextAppearance.12sp.White_80" android:ellipsize="end" android:gravity="center" android:id="@id/tv_album" android:tag="binding_6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="1" android:includeFontPadding="false" />
+                    </LinearLayout>
+                    <ImageButton android:id="@id/btn_options" android:visibility="visible" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_play_more" android:scaleType="centerInside" style="@style/Button.Action.White" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="28.0dip">
+                    <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:id="@id/duration_start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:maxLines="1" />
+                    <androidx.appcompat.widget.AppCompatSeekBar android:id="@id/seek_bar" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:thumbTint="@android:color/white" style="@style/Widget.AppCompat.SeekBar" />
+                    <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:id="@id/duration_end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:maxLines="1" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginTop="6.0dip" android:baselineAligned="false">
+                    <ImageButton android:id="@id/btn_playmode" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_play_mode_list_loop" android:scaleType="centerInside" style="@style/Button.Action.White" />
+                    <androidx.legacy.widget.Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="10.4" />
+                    <ImageButton android:id="@id/btn_previous" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_previous_white" android:scaleType="centerInside" style="@style/Button.Action.White" />
+                    <androidx.legacy.widget.Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="10.4" />
+                    <ImageButton android:id="@id/btn_play" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_playback_play" android:scaleType="fitCenter" app:elevation="2.0dip" style="@style/Button.Action.White" />
+                    <androidx.legacy.widget.Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="10.4" />
+                    <ImageButton android:id="@id/btn_next" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_next_white" android:scaleType="centerInside" style="@style/Button.Action.White" />
+                    <androidx.legacy.widget.Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="10.4" />
+                    <ImageView android:id="@id/btn_favourite" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_favorite" android:scaleType="centerInside" style="@style/Button.Action.White" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ad_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/song_list" android:tag="binding_11" android:paddingBottom="50.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:overScrollMode="never" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

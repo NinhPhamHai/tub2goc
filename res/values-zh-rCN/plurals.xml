@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="deleted">
+        <item quantity="other">%d 曲目已删除</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d 小时</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d 分钟</item>
+    </plurals>
+    <plurals name="removed_from_playlist">
+        <item quantity="other">%1$d 曲目从 %2$s 播放列表中移除</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d 秒</item>
+    </plurals>
+</resources>

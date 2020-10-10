@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.floatingtunes.youtubeplayer.topmusic.view.StatusBarView android:id="@id/status" android:background="@drawable/bg_status_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@drawable/tab_layout_bg" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:layout_below="@id/status" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:titleTextColor="#ffffffff" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycle_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/toolbar" />
+    <ProgressBar android:id="@id/progress_bar" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

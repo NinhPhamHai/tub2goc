@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_root" android:background="?selectableItemBackground" android:padding="2.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_marginStart="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:visibility="gone" android:layout_width="25.0dip" android:layout_height="fill_parent">
+        <TextView android:textColor="@color/top_item_text" android:id="@id/rank_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <TextView android:background="@drawable/ic_top_new_entry" android:layout_width="5.0dip" android:layout_height="5.0dip" android:layout_below="@id/rank_tv" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rl_ablum" android:layout_width="110.0dip" android:layout_height="62.0dip">
+        <ImageView android:id="@id/img_ablum" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/duration_tv" android:background="@drawable/bgi_duration_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_info_tv" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginStart="5.0dip">
+        <TextView android:textSize="13.0sp" android:textColor="@color/top_item_text" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/title_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="11.0sp" android:textColor="@color/black_alpha_99" android:ellipsize="end" android:id="@id/channel_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/black_alpha_80" android:ellipsize="end" android:id="@id/views_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        </LinearLayout>
+    </LinearLayout>
+    <CheckBox android:layout_gravity="center" android:id="@id/love_cb" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:button="@drawable/cb_fav_top_selector" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" />
+    <ImageView android:id="@id/more_iv" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/more" android:paddingEnd="8.0dip" />
+</LinearLayout>

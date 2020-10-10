@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/ll_main" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground" app:cardUseCompatPadding="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.floatingtunes.youtubeplayer.topmusic.view.SquareLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_main" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip" />
+    </com.floatingtunes.youtubeplayer.topmusic.view.SquareLayout>
+</androidx.cardview.widget.CardView>

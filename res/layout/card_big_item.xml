@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/root" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:foreground="@drawable/ripple_bg_white" app:cardCornerRadius="5.0dip" app:cardElevation="5.0dip" app:cardMaxElevation="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="200.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:id="@id/iv_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <View android:background="@color/black_alpha_66" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textSize="30.0sp" android:textColor="@color/white" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/white_alpha_66" android:ellipsize="end" android:id="@id/tv_description0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="5.0dip" android:layout_marginEnd="48.0dip" android:layout_alignParentStart="true" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_description" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_above="@id/tv_description2" android:layout_marginStart="5.0dip" android:layout_marginEnd="48.0dip" android:layout_alignParentStart="true" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_description2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:maxLines="1" android:layout_alignParentBottom="true" android:layout_marginStart="5.0dip" android:layout_marginEnd="48.0dip" android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

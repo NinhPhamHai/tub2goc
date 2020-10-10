@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.floatingtunes.youtubeplayer.topmusic.view.StatusBarView android:id="@id/status" android:background="@drawable/bg_status_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@drawable/tab_layout_bg" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:layout_below="@id/status" app:layout_scrollFlags="enterAlways|scroll|snap" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:titleTextColor="#ffffffff" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_content" android:paddingBottom="30.0dip" android:visibility="visible" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ad_container" android:layout_below="@id/toolbar" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/network_error_ll" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="150.0dip" android:layout_below="@id/toolbar">
+        <ImageView android:id="@id/network_error" android:background="@drawable/network_error_illu" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textColor="@color/light_gray_color" android:id="@id/text_error" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/loading_item_failed" />
+        <Button android:textColor="@android:color/white" android:id="@id/btn_retry" android:background="@drawable/ad_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/retry_button" android:textAllCaps="false" />
+    </LinearLayout>
+    <ProgressBar android:id="@id/progress_bar" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ad_container" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

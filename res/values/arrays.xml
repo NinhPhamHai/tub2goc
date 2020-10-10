@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="audio_format_description_list">
+        <item>M4A</item>
+        <item>WebM</item>
+    </string-array>
+    <string-array name="audio_format_values_list">
+        <item>@string/audio_m4a_key</item>
+        <item>@string/audio_webm_key</item>
+    </string-array>
+    <string-array name="country_codes">
+        <item>AF</item>
+        <item>AX</item>
+        <item>AL</item>
+        <item>DZ</item>
+        <item>AS</item>
+        <item>AD</item>
+        <item>AO</item>
+        <item>AI</item>
+        <item>AQ</item>
+        <item>AG</item>
+        <item>AR</item>
+        <item>AM</item>
+        <item>AW</item>
+        <item>AU</item>
+        <item>AT</item>
+        <item>AZ</item>
+        <item>BS</item>
+        <item>BH</item>
+        <item>BD</item>
+        <item>BB</item>
+        <item>BY</item>
+        <item>BE</item>
+        <item>BZ</item>
+        <item>BJ</item>
+        <item>BM</item>
+        <item>BT</item>
+        <item>BO</item>
+        <item>BA</item>
+        <item>BW</item>
+        <item>BV</item>
+        <item>BR</item>
+        <item>VG</item>
+        <item>IO</item>
+        <item>BN</item>
+        <item>BG</item>
+        <item>BF</item>
+        <item>BI</item>
+        <item>KH</item>
+        <item>CM</item>
+        <item>CA</item>
+        <item>CV</item>
+        <item>KY</item>
+        <item>CF</item>
+        <item>TD</item>
+        <item>CL</item>
+        <item>CN</item>
+        <item>HK</item>
+        <item>MO</item>
+        <item>CX</item>
+        <item>CC</item>
+        <item>CO</item>
+        <item>KM</item>
+        <item>CG</item>
+        <item>CD</item>
+        <item>CK</item>
+        <item>CR</item>
+        <item>CI</item>
+        <item>HR</item>
+        <item>CU</item>
+        <item>CY</item>
+        <item>CZ</item>
+        <item>DK</item>
+        <item>DJ</item>
+        <item>DM</item>
+        <item>DO</item>
+        <item>EC</item>
+        <item>EG</item>
+        <item>SV</item>
+        <item>GQ</item>
+        <item>ER</item>
+        <item>EE</item>
+        <item>ET</item>
+        <item>FK</item>
+        <item>FO</item>
+        <item>FJ</item>
+        <item>FI</item>
+        <item>FR</item>
+        <item>GF</item>
+        <item>PF</item>
+        <item>TF</item>
+        <item>GA</item>
+        <item>GM</item>
+        <item>GE</item>
+        <item>DE</item>
+        <item>GH</item>
+        <item>GI</item>
+        <item>GR</item>
+        <item>GL</item>
+        <item>GD</item>
+        <item>GP</item>
+        <item>GU</item>
+        <item>GT</item>
+        <item>GG</item>
+        <item>GN</item>
+        <item>GW</item>
+        <item>GY</item>
+        <item>HT</item>
+        <item>HM</item>
+        <item>VA</item>
+        <item>HN</item>
+        <item>HU</item>
+        <item>IS</item>
+        <item>IN</item>
+        <item>ID</item>
+        <item>IR</item>
+        <item>IQ</item>
+        <item>IE</item>
+        <item>IM</item>
+        <item>IL</item>
+        <item>IT</item>
+        <item>JM</item>
+        <item>JP</item>
+        <item>JE</item>
+        <item>JO</item>
+        <item>KZ</item>
+        <item>KE</item>
+        <item>KI</item>
+        <item>KP</item>
+        <item>KR</item>
+        <item>KW</item>
+        <item>KG</item>
+        <item>LA</item>
+        <item>LV</item>
+        <item>LB</item>
+        <item>LS</item>
+        <item>LR</item>
+        <item>LY</item>
+        <item>LI</item>
+        <item>LT</item>
+        <item>LU</item>
+        <item>MK</item>
+        <item>MG</item>
+        <item>MW</item>
+        <item>MY</item>
+        <item>MV</item>
+        <item>ML</item>
+        <item>MT</item>
+        <item>MH</item>
+        <item>MQ</item>
+        <item>MR</item>
+        <item>MU</item>
+        <item>YT</item>
+        <item>MX</item>
+        <item>FM</item>
+        <item>MD</item>
+        <item>MC</item>
+        <item>MN</item>
+        <item>ME</item>
+        <item>MS</item>
+        <item>MA</item>
+        <item>MZ</item>
+        <item>MM</item>
+        <item>NA</item>
+        <item>NR</item>
+        <item>NP</item>
+        <item>NL</item>
+        <item>AN</item>
+        <item>NC</item>
+        <item>NZ</item>
+        <item>NI</item>
+        <item>NE</item>
+        <item>NG</item>
+        <item>NU</item>
+        <item>NF</item>
+        <item>MP</item>
+        <item>NO</item>
+        <item>OM</item>
+        <item>PK</item>
+        <item>PW</item>
+        <item>PS</item>
+        <item>PA</item>
+        <item>PG</item>
+        <item>PY</item>
+        <item>PE</item>
+        <item>PH</item>
+        <item>PN</item>
+        <item>PL</item>
+        <item>PT</item>
+        <item>PR</item>
+        <item>QA</item>
+        <item>RE</item>
+        <item>RO</item>
+        <item>RU</item>
+        <item>RW</item>
+        <item>BL</item>
+        <item>SH</item>
+        <item>KN</item>
+        <item>LC</item>
+        <item>MF</item>
+        <item>PM</item>
+        <item>VC</item>
+        <item>WS</item>
+        <item>SM</item>
+        <item>ST</item>
+        <item>SA</item>
+        <item>SN</item>
+        <item>RS</item>
+        <item>SC</item>
+        <item>SL</item>
+        <item>SG</item>
+        <item>SK</item>
+        <item>SI</item>
+        <item>SB</item>
+        <item>SO</item>
+        <item>ZA</item>
+        <item>GS</item>
+        <item>SS</item>
+        <item>ES</item>
+        <item>LK</item>
+        <item>SD</item>
+        <item>SR</item>
+        <item>SJ</item>
+        <item>SZ</item>
+        <item>SE</item>
+        <item>CH</item>
+        <item>SY</item>
+        <item>TW</item>
+        <item>TJ</item>
+        <item>TZ</item>
+        <item>TH</item>
+        <item>TL</item>
+        <item>TG</item>
+        <item>TK</item>
+        <item>TO</item>
+        <item>TT</item>
+        <item>TN</item>
+        <item>TR</item>
+        <item>TM</item>
+        <item>TC</item>
+        <item>TV</item>
+        <item>UG</item>
+        <item>UA</item>
+        <item>AE</item>
+        <item>GB</item>
+        <item>US</item>
+        <item>UM</item>
+        <item>UY</item>
+        <item>UZ</item>
+        <item>VU</item>
+        <item>VE</item>
+        <item>VN</item>
+        <item>VI</item>
+        <item>WF</item>
+        <item>EH</item>
+        <item>YE</item>
+        <item>ZM</item>
+        <item>ZW</item>
+    </string-array>
+    <string-array name="country_names">
+        <item>Afghanistan</item>
+        <item>Aland Islands</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>American Samoa</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antartica</item>
+        <item>Antigua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Bouvet Island</item>
+        <item>Brazil</item>
+        <item>British Virgin Islands</item>
+        <item>British Indian Ocean Territory</item>
+        <item>Brunei Darussalam</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Cayman Islands</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Hong Kong (China)</item>
+        <item>Macao (China)</item>
+        <item>Christmas Island</item>
+        <item>Cocos (Keeling) Islands</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Brazzaville (Congo)</item>
+        <item>Kinshasa (Congo)</item>
+        <item>Cook Islands</item>
+        <item>Costa Rica</item>
+        <item>"Côte d'Ivoire"</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Falkland Islands (Malvinas)</item>
+        <item>Faroe Islands</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>French Guiana</item>
+        <item>French Polynesia</item>
+        <item>French Southern Territories</item>
+        <item>Gabon</item>
+        <item>Gambia</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Greece</item>
+        <item>Greenland</item>
+        <item>Grenada</item>
+        <item>Guadeloupe</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guernsey</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Heard and McDonald Islands</item>
+        <item>Holy See (Vatican City State)</item>
+        <item>Honduras</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Isle of Man</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jersey</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kiribati</item>
+        <item>North Korea</item>
+        <item>South Korea</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        <item>Lao</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macedonia</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshall Islands</item>
+        <item>Martinique</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mayotte</item>
+        <item>Mexico</item>
+        <item>Micronesia</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Montserrat</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Myanmar</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>Netherlands Antilles</item>
+        <item>New Caledonia</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Niue</item>
+        <item>Norfolk Island</item>
+        <item>Northern Mariana Islands</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Palestine</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Pitcairn</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Réunion</item>
+        <item>Romania</item>
+        <item>Russian Federation</item>
+        <item>Rwanda</item>
+        <item>Saint Barthélemy</item>
+        <item>Saint Helena</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Martin</item>
+        <item>Saint Pierre and Miquelon</item>
+        <item>Saint Vincent and Grenadines</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>Sao Tome and Principe</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Georgia and South Sandwich Islands</item>
+        <item>South Sudan</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Svalbard and Jan Mayen Islands</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syrian Arab Republic (Syria)</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>Timor Leste</item>
+        <item>Togo</item>
+        <item>Tokelau</item>
+        <item>Tonga</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Turks and Caicos Islands</item>
+        <item>Tuvalu</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>Minor Outlying Islands</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Vanuatu</item>
+        <item>Venezuela (Bolivarian Republic)</item>
+        <item>Vietnam</item>
+        <item>Virgin Islands</item>
+        <item>Wallis and Futuna Islands</item>
+        <item>Western Sahara</item>
+        <item>Yemen</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+    <string-array name="default_action_entries">
+        <item>@string/expand_or_play_all</item>
+        <item>@string/expand</item>
+        <item>@string/play</item>
+        <item>@string/enqueue</item>
+        <item>@string/last_used_action</item>
+        <item>@string/play_all</item>
+        <item>@string/enqueue_all</item>
+        <item>@string/play_or_enqueue</item>
+        <item>@string/enqueue_as_next</item>
+        <item>@string/do_nothing</item>
+    </string-array>
+    <string-array name="default_action_entry_values">
+        <item>9</item>
+        <item>6</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>7</item>
+        <item>8</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="default_playlist_action_entries">
+        <item>@string/play</item>
+        <item>@string/enqueue</item>
+        <item>@string/last_used_action</item>
+        <item>@string/play_all</item>
+        <item>@string/enqueue_all</item>
+        <item>@string/play_or_enqueue</item>
+        <item>@string/enqueue_as_next</item>
+        <item>@string/do_nothing</item>
+    </string-array>
+    <string-array name="default_playlist_action_entry_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>7</item>
+        <item>8</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="display_mode_entries">
+        <item>@string/info_on_cover</item>
+        <item>@string/info_below_cover</item>
+        <item>@string/fixed_info</item>
+    </string-array>
+    <string-array name="downloads_maximum_retry_list">
+        <item>@string/minimize_on_exit_none_description</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>7</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="entry_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="language_codes">
+        <item>af</item>
+        <item>az</item>
+        <item>id</item>
+        <item>ms</item>
+        <item>ca</item>
+        <item>cs</item>
+        <item>da</item>
+        <item>de</item>
+        <item>et</item>
+        <item>en-GB</item>
+        <item>en</item>
+        <item>es</item>
+        <item>es-419</item>
+        <item>eu</item>
+        <item>fil</item>
+        <item>fr</item>
+        <item>fr-CA</item>
+        <item>gl</item>
+        <item>hr</item>
+        <item>zu</item>
+        <item>is</item>
+        <item>it</item>
+        <item>sw</item>
+        <item>lv</item>
+        <item>lt</item>
+        <item>hu</item>
+        <item>nl</item>
+        <item>no</item>
+        <item>uz</item>
+        <item>pl</item>
+        <item>pt-PT</item>
+        <item>pt</item>
+        <item>ro</item>
+        <item>sq</item>
+        <item>sk</item>
+        <item>sl</item>
+        <item>fi</item>
+        <item>sv</item>
+        <item>bo</item>
+        <item>vi</item>
+        <item>tr</item>
+        <item>bg</item>
+        <item>ky</item>
+        <item>kk</item>
+        <item>mk</item>
+        <item>mn</item>
+        <item>ru</item>
+        <item>sr</item>
+        <item>uk</item>
+        <item>el</item>
+        <item>hy</item>
+        <item>iw</item>
+        <item>ur</item>
+        <item>ar</item>
+        <item>fa</item>
+        <item>ne</item>
+        <item>mr</item>
+        <item>hi</item>
+        <item>bn</item>
+        <item>pa</item>
+        <item>gu</item>
+        <item>ta</item>
+        <item>te</item>
+        <item>kn</item>
+        <item>ml</item>
+        <item>si</item>
+        <item>th</item>
+        <item>lo</item>
+        <item>my</item>
+        <item>ka</item>
+        <item>am</item>
+        <item>km</item>
+        <item>zh-CN</item>
+        <item>zh-TW</item>
+        <item>zh-HK</item>
+        <item>ja</item>
+        <item>ko</item>
+    </string-array>
+    <string-array name="language_names">
+        <item>Afrikaans</item>
+        <item>Azərbaycan</item>
+        <item>Bahasa Indonesia</item>
+        <item>Bahasa Malaysia</item>
+        <item>Català</item>
+        <item>Čeština</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>Eesti</item>
+        <item>English (UK)</item>
+        <item>English (US)</item>
+        <item>Español (España)</item>
+        <item>Español (Latinoamérica)</item>
+        <item>Euskara</item>
+        <item>Filipino</item>
+        <item>Français</item>
+        <item>Français (Canada)</item>
+        <item>Galego</item>
+        <item>Hrvatski</item>
+        <item>IsiZulu</item>
+        <item>Íslenska</item>
+        <item>Italiano</item>
+        <item>Kiswahili</item>
+        <item>Latviešu valoda</item>
+        <item>Lietuvių</item>
+        <item>Magyar</item>
+        <item>Nederlands</item>
+        <item>Norsk</item>
+        <item>O‘zbek</item>
+        <item>Polski</item>
+        <item>Português</item>
+        <item>Português (Brasil)</item>
+        <item>Română</item>
+        <item>Shqip</item>
+        <item>Slovenčina</item>
+        <item>Slovenščina</item>
+        <item>Suomi</item>
+        <item>Svenska</item>
+        <item>Tibetan བོད་སྐད།</item>
+        <item>Tiếng Việt</item>
+        <item>Türkçe</item>
+        <item>Български</item>
+        <item>Кыргызча</item>
+        <item>Қазақ Тілі</item>
+        <item>Македонски</item>
+        <item>Монгол</item>
+        <item>Русский</item>
+        <item>Српски</item>
+        <item>Українська</item>
+        <item>Ελληνικά</item>
+        <item>Հայերեն</item>
+        <item>עברית</item>
+        <item>اردو</item>
+        <item>العربية</item>
+        <item>فارسی</item>
+        <item>नेपाली</item>
+        <item>मराठी</item>
+        <item>हिन्दी</item>
+        <item>বাংলা</item>
+        <item>ਪੰਜਾਬੀ</item>
+        <item>ગુજરાતી</item>
+        <item>தமிழ்</item>
+        <item>తెలుగు</item>
+        <item>ಕನ್ನಡ</item>
+        <item>മലയാളം</item>
+        <item>සිංහල</item>
+        <item>ภาษาไทย</item>
+        <item>ລາວ</item>
+        <item>ဗမာ</item>
+        <item>ქართული</item>
+        <item>አማርኛ</item>
+        <item>ខ្មែរ</item>
+        <item>中文 (简体)</item>
+        <item>中文 (繁體)</item>
+        <item>中文 (香港)</item>
+        <item>日本語</item>
+        <item>한국어</item>
+    </string-array>
+    <array name="letter_tile_colors">
+        <item>#ffdb4437</item>
+        <item>#ffe91e63</item>
+        <item>#ff9c27b0</item>
+        <item>#ff673ab7</item>
+        <item>#ff3f51b5</item>
+        <item>#ff4285f4</item>
+        <item>#ff039be5</item>
+        <item>#ff0097a7</item>
+        <item>#ff009688</item>
+        <item>#ff0f9d58</item>
+        <item>#ff689f38</item>
+        <item>#ffef6c00</item>
+        <item>#ffff5722</item>
+        <item>#ff757575</item>
+    </array>
+    <string-array name="limit_data_usage_values_list">
+        <item>@string/limit_data_usage_none_key</item>
+        <item>1080p60</item>
+        <item>1080p</item>
+        <item>720p60</item>
+        <item>720p</item>
+        <item>480p</item>
+        <item>360p</item>
+        <item>240p</item>
+        <item>144p</item>
+    </string-array>
+    <string-array name="list_view_mode_description">
+        <item>@string/auto</item>
+        <item>@string/list</item>
+        <item>@string/grid</item>
+    </string-array>
+    <string-array name="list_view_mode_values">
+        <item>auto</item>
+        <item>list</item>
+        <item>grid</item>
+    </string-array>
+    <array name="mdcolor_2">
+        <item>#fff36c60</item>
+        <item>#fff06292</item>
+        <item>#ffba68c8</item>
+        <item>#ff9575cd</item>
+        <item>#ff7986cb</item>
+        <item>#ff91a7ff</item>
+        <item>#ff4fc3f7</item>
+        <item>#ff4dd0e1</item>
+        <item>#ff4db6ac</item>
+        <item>#ff42bd41</item>
+        <item>#ffaed581</item>
+        <item>#ffffb74d</item>
+        <item>#ffff8a65</item>
+        <item>#ffa1887f</item>
+        <item>#ff90a4ae</item>
+    </array>
+    <array name="mdcolor_3">
+        <item>#ffe84e40</item>
+        <item>#ffec407a</item>
+        <item>#ffab47bc</item>
+        <item>#ff7e57c2</item>
+        <item>#ff5c6bc0</item>
+        <item>#ff738ffe</item>
+        <item>#ff29b6f6</item>
+        <item>#ff26c6da</item>
+        <item>#ff26a69a</item>
+        <item>#ff2baf2b</item>
+        <item>#ff9ccc65</item>
+        <item>#ffffa726</item>
+        <item>#ffff7043</item>
+        <item>#ff8d6e63</item>
+        <item>#ff78909c</item>
+    </array>
+    <array name="mdcolor_4">
+        <item>#ffe51c23</item>
+        <item>#ffe91e63</item>
+        <item>#ff9c27b0</item>
+        <item>#ff5677fc</item>
+        <item>#ff03a9f4</item>
+        <item>#ff00bcd4</item>
+        <item>#ff009688</item>
+        <item>#ff259b24</item>
+        <item>#ff8bc34a</item>
+        <item>#ffcddc39</item>
+        <item>#ffffeb3b</item>
+        <item>#ffff9800</item>
+        <item>#ffff5722</item>
+        <item>#ff607d8b</item>
+    </array>
+    <array name="mdcolor_5">
+        <item>#ffdd191d</item>
+        <item>#ffd81b60</item>
+        <item>#ff8e24aa</item>
+        <item>#ff4e6cef</item>
+        <item>#ff039be5</item>
+        <item>#ff00acc1</item>
+        <item>#ff00897b</item>
+        <item>#ff0a8f08</item>
+        <item>#ff7cb342</item>
+        <item>#fffb8c00</item>
+        <item>#fff4511e</item>
+    </array>
+    <array name="mdcolor_6">
+        <item>#ffff7997</item>
+        <item>#ffff80ab</item>
+        <item>#ffea80fc</item>
+        <item>#ffb388ff</item>
+        <item>#ff8c9eff</item>
+        <item>#ffa6baff</item>
+        <item>#ffffd180</item>
+        <item>#ffff9e80</item>
+    </array>
+    <array name="mdcolor_7">
+        <item>#ffff5177</item>
+        <item>#ffff4081</item>
+        <item>#ffe040fb</item>
+        <item>#ff7c4dff</item>
+        <item>#ff536dfe</item>
+        <item>#ff6889ff</item>
+        <item>#ff40c4ff</item>
+        <item>#ff18ffff</item>
+        <item>#ff5af158</item>
+        <item>#ffffab40</item>
+        <item>#ffff6e40</item>
+    </array>
+    <array name="mdcolor_8">
+        <item>#ffff2d6f</item>
+        <item>#fff50057</item>
+        <item>#ffd500f9</item>
+        <item>#ff3d5afe</item>
+        <item>#ff4d73ff</item>
+        <item>#ff00b0ff</item>
+        <item>#ff00e5ff</item>
+        <item>#ff1de9b6</item>
+        <item>#ff14e715</item>
+        <item>#ff76ff03</item>
+        <item>#ffff9100</item>
+        <item>#ffff3d00</item>
+    </array>
+    <array name="mdcolor_9">
+        <item>#ffe00032</item>
+        <item>#ffc51162</item>
+        <item>#ffaa00ff</item>
+        <item>#ff4d69ff</item>
+        <item>#ff0091ea</item>
+        <item>#ff00b8d4</item>
+        <item>#ff00bfa5</item>
+        <item>#ff12c700</item>
+        <item>#ff64dd17</item>
+        <item>#ffff6d00</item>
+        <item>#ffdd2c00</item>
+    </array>
+    <string-array name="minimize_on_exit_action_key">
+        <item>@string/minimize_on_exit_none_key</item>
+        <item>@string/minimize_on_exit_background_key</item>
+        <item>@string/minimize_on_exit_popup_key</item>
+    </string-array>
+    <string-array name="music_type">
+        <item>Activities &amp; Moods</item>
+        <item>Artist</item>
+        <item>Hot List</item>
+        <item>Pop</item>
+        <item>Rock</item>
+        <item>Country</item>
+        <item>Hip Hop</item>
+        <item>Latin</item>
+        <item>Electronic</item>
+    </string-array>
+    <string-array name="notification_action_entries">
+        <item>@string/open_main_activity</item>
+        <item>@string/open_mini_popup</item>
+        <item>@string/open_full_player</item>
+        <item>@string/skip_to_next_song</item>
+    </string-array>
+    <string-array name="notification_visibility_entries">
+        <item>@string/show_when_playing</item>
+        <item>@string/always_show</item>
+    </string-array>
+    <string-array name="playlist_sync_mode_entries">
+        <item>@string/playlist_sync_disabled</item>
+        <item>@string/playlist_sync_all</item>
+        <item>@string/playlist_sync_only_export</item>
+        <item>@string/playlist_sync_only_import</item>
+    </string-array>
+    <string-array name="playlist_sync_mode_values">
+        <item>0</item>
+        <item>255</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="pop_size">
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Medium</item>
+        <item>Big</item>
+    </string-array>
+    <string-array name="preferred_open_action_values_list">
+        <item>@string/show_info_key</item>
+        <item>@string/video_player_key</item>
+        <item>@string/background_player_key</item>
+        <item>@string/popup_player_key</item>
+        <item>@string/download_key</item>
+        <item>@string/always_ask_open_action_key</item>
+    </string-array>
+    <string-array name="resolution_list_description">
+        <item>@string/best_resolution</item>
+        <item>1080p60</item>
+        <item>1080p</item>
+        <item>720p60</item>
+        <item>720p</item>
+        <item>480p</item>
+        <item>360p</item>
+        <item>240p</item>
+        <item>144p</item>
+    </string-array>
+    <string-array name="resolution_list_values">
+        <item>@string/best_resolution_key</item>
+        <item>1080p60</item>
+        <item>1080p</item>
+        <item>720p60</item>
+        <item>720p</item>
+        <item>480p</item>
+        <item>360p</item>
+        <item>240p</item>
+        <item>144p</item>
+    </string-array>
+    <string-array name="settings_filename_charset">
+        <item>@string/charset_letters_and_digits_value</item>
+        <item>@string/charset_most_special_value</item>
+    </string-array>
+    <string-array name="settings_filename_charset_name">
+        <item>@string/charset_letters_and_digits</item>
+        <item>@string/charset_most_special_characters</item>
+    </string-array>
+    <string-array name="swipe_action_entries">
+        <item>@string/do_nothing</item>
+        <item>@string/open_library</item>
+        <item>@string/play_pause</item>
+        <item>@string/next_song</item>
+        <item>@string/previous_song</item>
+        <item>@string/next_album</item>
+        <item>@string/previous_album</item>
+        <item>@string/cycle_repeat_mode</item>
+        <item>@string/cycle_shuffle_mode</item>
+        <item>@string/preferences_action_enqueue_current_album</item>
+        <item>@string/preferences_action_enqueue_current_artist</item>
+        <item>@string/preferences_action_enqueue_current_genre</item>
+        <item>@string/preferences_action_clear_queue</item>
+        <item>@string/preferences_action_show_queue</item>
+        <item>@string/toggle_controls</item>
+        <item>@string/seek_10s_forward</item>
+        <item>@string/seek_10s_backward</item>
+    </string-array>
+    <string-array name="swipe_action_values">
+        <item>Nothing</item>
+        <item>Library</item>
+        <item>PlayPause</item>
+        <item>NextSong</item>
+        <item>PreviousSong</item>
+        <item>NextAlbum</item>
+        <item>PreviousAlbum</item>
+        <item>Repeat</item>
+        <item>Shuffle</item>
+        <item>EnqueueAlbum</item>
+        <item>EnqueueArtist</item>
+        <item>EnqueueGenre</item>
+        <item>ClearQueue</item>
+        <item>ShowQueue</item>
+        <item>ToggleControls</item>
+        <item>SeekForward</item>
+        <item>SeekBackward</item>
+    </string-array>
+    <array name="theme_category_backactionbar">
+        <item>@style/BackActionBar</item>
+        <item>@style/Standard_dark.BackActionBar</item>
+        <item>@style/Grey_light.BackActionBar</item>
+        <item>@style/Grey_dark.BackActionBar</item>
+        <item>@style/Orange_light.BackActionBar</item>
+        <item>@style/Orange_dark.BackActionBar</item>
+        <item>@style/Blue_light.BackActionBar</item>
+        <item>@style/Blue_dark.BackActionBar</item>
+        <item>@style/Red_light.BackActionBar</item>
+        <item>@style/Red_dark.BackActionBar</item>
+        <item>@style/Amoled_dark.BackActionBar</item>
+    </array>
+    <array name="theme_category_bottomsheetdialog">
+        <item>@style/BottomSheetDialog</item>
+        <item>@style/Standard_dark.BottomSheetDialog</item>
+        <item>@style/Grey_light.BottomSheetDialog</item>
+        <item>@style/Grey_dark.BottomSheetDialog</item>
+        <item>@style/Orange_light.BottomSheetDialog</item>
+        <item>@style/Orange_dark.BottomSheetDialog</item>
+        <item>@style/Blue_light.BottomSheetDialog</item>
+        <item>@style/Blue_dark.BottomSheetDialog</item>
+        <item>@style/Red_light.BottomSheetDialog</item>
+        <item>@style/Red_dark.BottomSheetDialog</item>
+        <item>@style/Amoled_dark.BottomSheetDialog</item>
+    </array>
+    <array name="theme_category_library">
+        <item>@style/Library</item>
+        <item>@style/Standard_dark.Library</item>
+        <item>@style/Grey_light.Library</item>
+        <item>@style/Grey_dark.Library</item>
+        <item>@style/Orange_light.Library</item>
+        <item>@style/Orange_dark.Library</item>
+        <item>@style/Blue_light.Library</item>
+        <item>@style/Blue_dark.Library</item>
+        <item>@style/Red_light.Library</item>
+        <item>@style/Red_dark.Library</item>
+        <item>@style/Amoled_dark.Library</item>
+    </array>
+    <array name="theme_category_playback">
+        <item>@style/Playback</item>
+        <item>@style/Standard_dark.Playback</item>
+        <item>@style/Grey_light.Playback</item>
+        <item>@style/Grey_dark.Playback</item>
+        <item>@style/Orange_light.Playback</item>
+        <item>@style/Orange_dark.Playback</item>
+        <item>@style/Blue_light.Playback</item>
+        <item>@style/Blue_dark.Playback</item>
+        <item>@style/Red_light.Playback</item>
+        <item>@style/Red_dark.Playback</item>
+        <item>@style/Amoled_dark.Playback</item>
+    </array>
+    <array name="theme_category_popupdialog">
+        <item>@style/PopupDialog</item>
+        <item>@style/Standard_dark.PopupDialog</item>
+        <item>@style/Grey_light.PopupDialog</item>
+        <item>@style/Grey_dark.PopupDialog</item>
+        <item>@style/Orange_light.PopupDialog</item>
+        <item>@style/Orange_dark.PopupDialog</item>
+        <item>@style/Blue_light.PopupDialog</item>
+        <item>@style/Blue_dark.PopupDialog</item>
+        <item>@style/Red_light.PopupDialog</item>
+        <item>@style/Red_dark.PopupDialog</item>
+        <item>@style/Amoled_dark.PopupDialog</item>
+    </array>
+    <array name="theme_category_vanillabase">
+        <item>@style/VanillaBase</item>
+        <item>@style/Standard_dark.VanillaBase</item>
+        <item>@style/Grey_light.VanillaBase</item>
+        <item>@style/Grey_dark.VanillaBase</item>
+        <item>@style/Orange_light.VanillaBase</item>
+        <item>@style/Orange_dark.VanillaBase</item>
+        <item>@style/Blue_light.VanillaBase</item>
+        <item>@style/Blue_dark.VanillaBase</item>
+        <item>@style/Red_light.VanillaBase</item>
+        <item>@style/Red_dark.VanillaBase</item>
+        <item>@style/Amoled_dark.VanillaBase</item>
+    </array>
+    <string-array name="theme_entries">
+        <item>@string/theme_name_standard_light</item>
+        <item>@string/theme_name_standard_dark</item>
+        <item>@string/theme_name_grey_light</item>
+        <item>@string/theme_name_grey_dark</item>
+        <item>@string/theme_name_orange_light</item>
+        <item>@string/theme_name_orange_dark</item>
+        <item>@string/theme_name_blue_light</item>
+        <item>@string/theme_name_blue_dark</item>
+        <item>@string/theme_name_red_light</item>
+        <item>@string/theme_name_red_dark</item>
+        <item>@string/theme_name_amoled_dark</item>
+    </string-array>
+    <string-array name="theme_ids">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="theme_values">
+        <item>\#ff263238,#fff0f0f0,#ff37474f</item>
+        <item>\#ff263238,#ff2a2a2a,#ff37474f</item>
+        <item>\#ff090909,#fff0f0f0,#ff212121</item>
+        <item>\#ff090909,#ff2a2a2a,#ff212121</item>
+        <item>\#FFBF360C,#fff0f0f0,#FFE65100</item>
+        <item>\#FFBF360C,#ff2a2a2a,#FFE65100</item>
+        <item>\#FF01579B,#fff0f0f0,#FF0277BD</item>
+        <item>\#FF01579B,#ff2a2a2a,#FF0277BD</item>
+        <item>\#ffb71c1c,#fff0f0f0,#ffc62828</item>
+        <item>\#ffb71c1c,#ff2a2a2a,#ffc62828</item>
+        <item>\#ff000000,#ff000000,#ff000000</item>
+    </string-array>
+    <string-array name="theme_values_list">
+        <item>@string/light_theme_key</item>
+        <item>@string/dark_theme_key</item>
+        <item>@string/black_theme_key</item>
+    </string-array>
+    <string-array name="theme_variant">
+        <item>light</item>
+        <item>dark</item>
+        <item>light</item>
+        <item>dark</item>
+        <item>light</item>
+        <item>dark</item>
+        <item>light</item>
+        <item>dark</item>
+        <item>light</item>
+        <item>dark</item>
+        <item>dark</item>
+    </string-array>
+    <string-array name="video_format_description_list">
+        <item>MPEG-4</item>
+        <item>WebM</item>
+        <item>3GP</item>
+    </string-array>
+    <string-array name="video_format_values_list">
+        <item>@string/video_mp4_key</item>
+        <item>@string/video_webm_key</item>
+        <item>@string/video_3gp_key</item>
+    </string-array>
+</resources>

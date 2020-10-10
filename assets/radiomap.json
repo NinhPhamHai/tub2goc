@@ -1,0 +1,234 @@
+[
+	{
+		"title": "Pop",
+		"playlistId": "2"
+	},
+	{
+		"title": "Rock",
+		"playlistId": "3"
+	},
+	{
+		"title": "Hip Hop",
+		"playlistId": "4"
+	},
+	{
+		"title": "Chillout",
+		"playlistId": "5"
+	},
+	{
+		"title": "Country",
+		"playlistId": "6"
+	},
+	{
+		"title": "Oldies",
+		"playlistId": "7"
+	},
+	{
+		"title": "Electro",
+		"playlistId": "8"
+	},
+	{
+		"title": "Alternative",
+		"playlistId": "9"
+	},
+	{
+		"title": "80S",
+		"playlistId": "10"
+	},
+	{
+		"title": "Classical",
+		"playlistId": "11"
+	},
+	{
+		"title": "House",
+		"playlistId": "12"
+	},
+	{
+		"title": "Jazz",
+		"playlistId": "13"
+	},
+	{
+		"title": "Top 40&Charts",
+		"playlistId": "14"
+	},
+	{
+		"title": "Soul",
+		"playlistId": "15"
+	},
+	{
+		"title": "Classic Rock",
+		"playlistId": "16"
+	},
+	{
+		"title": "Blues",
+		"playlistId": "17"
+	},
+	{
+		"title": "Latin",
+		"playlistId": "18"
+	},
+	{
+		"title": "90S",
+		"playlistId": "19"
+	},
+	{
+		"title": "R&B",
+		"playlistId": "20"
+	},
+	{
+		"title": "70S",
+		"playlistId": "21"
+	},
+	{
+		"title": "African Music",
+		"playlistId": "22"
+	},
+	{
+		"title": "Ambient",
+		"playlistId": "23"
+	},
+	{
+		"title": "Asian Music",
+		"playlistId": "24"
+	},
+	{
+		"title": "Bachata",
+		"playlistId": "25"
+	},
+	{
+		"title": "Ballads",
+		"playlistId": "26"
+	},
+	{
+		"title": "Chanson",
+		"playlistId": "27"
+	},
+	{
+		"title": "Christian MUsic",
+		"playlistId": "28"
+	},
+	{
+		"title": "Disco",
+		"playlistId": "29"
+	},
+	{
+		"title": "Discofox",
+		"playlistId": "30"
+	},
+	{
+		"title": "Drum&Bass",
+		"playlistId": "31"
+	},
+	{
+		"title": "Dub",
+		"playlistId": "32"
+	},
+	{
+		"title": "Easy Listening",
+		"playlistId": "33"
+	},
+	{
+		"title": "Funk",
+		"playlistId": "34"
+	},
+	{
+		"title": "German Folklore",
+		"playlistId": "35"
+	},
+	{
+		"title": "Gospel",
+		"playlistId": "36"
+	},
+	{
+		"title": "Gothic",
+		"playlistId": "37"
+	},
+	{
+		"title": "Hard Rock",
+		"playlistId": "38"
+	},
+	{
+		"title": "Heavy Metal",
+		"playlistId": "39"
+	},
+	{
+		"title": "Hits",
+		"playlistId": "40"
+	},
+	{
+		"title": "Indie",
+		"playlistId": "41"
+	},
+	{
+		"title": "Industrial",
+		"playlistId": "42"
+	},
+	{
+		"title": "Minimal",
+		"playlistId": "43"
+	},
+	{
+		"title": "Oriental",
+		"playlistId": "44"
+	},
+	{
+		"title": "Podcast",
+		"playlistId": "45"
+	},
+	{
+		"title": "Punk",
+		"playlistId": "46"
+	},
+	{
+		"title": "Rap",
+		"playlistId": "47"
+	},
+	{
+		"title": "Reggae",
+		"playlistId": "48"
+	},
+	{
+		"title": "Rock&Roll",
+		"playlistId": "49"
+	},
+	{
+		"title": "Salsa",
+		"playlistId": "50"
+	},
+	{
+		"title": "Schlager",
+		"playlistId": "51"
+	},
+	{
+		"title": "Swing",
+		"playlistId": "52"
+	},
+	{
+		"title": "Talk",
+		"playlistId": "53"
+	},
+	{
+		"title": "Techno",
+		"playlistId": "54"
+	},
+	{
+		"title": "Traditional Music",
+		"playlistId": "55"
+	},
+	{
+		"title": "Trance",
+		"playlistId": "56"
+	},
+	{
+		"title": "Urban",
+		"playlistId": "57"
+	},
+	{
+		"title": "World",
+		"playlistId": "58"
+	},
+	{
+		"title": "Zouk&Tropical",
+		"playlistId": "59"
+	}
+]

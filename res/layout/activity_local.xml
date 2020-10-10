@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.floatingtunes.youtubeplayer.topmusic.view.StatusBarView android:background="@drawable/bg_status_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@drawable/tab_layout_bg" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:title="@string/tap_my_local_music" app:titleTextColor="#ffffffff" />
+    <com.google.android.material.tabs.TabLayout android:id="@id/main_tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabIndicatorColor="@color/colorAccent" app:tabIndicatorHeight="2.0dip" app:tabSelectedTextColor="@color/colorAccent" app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget" app:tabTextColor="@color/black" />
+    <androidx.viewpager.widget.ViewPager android:id="@id/vp_main" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:layout_gravity="center_vertical" android:id="@id/toolbar_search_edit_text" android:background="?colorPrimary" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" android:layout_marginRight="48.0dip" android:layout_marginBottom="4.0dip" android:hint="@string/search" android:maxLines="1" android:drawableLeft="@drawable/search" android:drawablePadding="8.0dip" android:inputType="textFilter|textNoSuggestions" android:imeOptions="actionSearch|flagNoFullscreen" />
+    <FrameLayout android:layout_gravity="center|right" android:id="@id/toolbar_search_clear" android:background="?selectableItemBackground" android:focusable="true" android:layout_width="48.0dip" android:layout_height="48.0dip">
+        <View android:layout_gravity="center" android:background="?selectableItemBackgroundBorderless" android:layout_width="28.0dip" android:layout_height="28.0dip" />
+        <ImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/close" android:scaleType="fitCenter" android:contentDescription="@string/search" />
+    </FrameLayout>
+</FrameLayout>

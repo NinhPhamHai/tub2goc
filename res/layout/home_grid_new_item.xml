@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.floatingtunes.youtubeplayer.topmusic.view.SquareLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.makeramen.roundedimageview.RoundedImageView android:id="@id/iv_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/theme_light_thumbnail_placeholder" android:scaleType="centerCrop" app:riv_border_color="@color/black_alpha_33" app:riv_border_width="1.0px" app:riv_corner_radius="3.0dip" app:riv_mutate_background="false" app:riv_oval="false" app:riv_tile_mode="clamp" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    <TextView android:textSize="15.0sp" android:textStyle="italic" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="start|center" android:id="@id/tv_title" android:background="@color/black_alpha_80" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.0dip" android:maxLines="1" android:layout_alignParentBottom="true" android:paddingStart="5.0dip" />
+</com.floatingtunes.youtubeplayer.topmusic.view.SquareLayout>

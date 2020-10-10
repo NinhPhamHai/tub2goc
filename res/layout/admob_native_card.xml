@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.ads.formats.UnifiedNativeAdView android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="180.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ad_native_layout" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="180.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="6.0dip" android:src="@drawable/xad_mark_native" android:layout_alignParentLeft="true" />
+            <ImageView android:orientation="vertical" android:id="@id/native_privacy_information_icon_image" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginBottom="1.0dip" android:layout_marginStart="1.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip">
+            <ImageView android:id="@id/native_icon_image" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_marginStart="13.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="@android:color/black" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/native_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="4.0dip" android:maxLines="1" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/ad_cover_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginRight="7.0dip" android:minHeight="120.0dip" android:layout_weight="1.0">
+                <com.google.android.gms.ads.formats.MediaView android:id="@id/ad_media" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ad_des_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="13.0sp" android:textColor="@color/black_alpha_99" android:ellipsize="end" android:id="@id/native_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:maxLines="4" />
+                <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <TextView android:textSize="15.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="end" android:id="@id/native_cta" android:background="@drawable/xad_report_ads_action_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginEnd="16.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.gms.ads.formats.UnifiedNativeAdView>

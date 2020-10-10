@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.ads.formats.UnifiedNativeAdView android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/native_layout" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <ImageView android:id="@id/native_icon_image" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="fitXY" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_alignParentStart="true" />
+        <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/native_cta" android:background="@drawable/xad_shape_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:minWidth="64.0dip" android:maxLines="1" android:layout_marginEnd="15.0dip" android:layout_alignParentEnd="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/text_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="8.0dip" android:layout_marginEnd="10.0dip" android:layout_toStartOf="@id/native_cta" android:layout_toEndOf="@id/native_icon_image">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="14.0sp" android:textColor="@android:color/black" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/native_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" android:fontFamily="sans-serif-medium" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/ad_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/xad_black_ad_tag" android:layout_marginStart="4.0dip" />
+            </LinearLayout>
+            <TextView android:textSize="12.0sp" android:textColor="@color/black_alpha_99" android:ellipsize="end" android:id="@id/native_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:fontFamily="sans-serif" />
+        </LinearLayout>
+        <ImageView android:id="@id/native_ad_choices_icon_container" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</com.google.android.gms.ads.formats.UnifiedNativeAdView>

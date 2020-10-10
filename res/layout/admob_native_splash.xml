@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.ads.formats.UnifiedNativeAdView android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:background="@drawable/xad_black_ad_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:id="@id/native_ad_choices_icon_container" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:ellipsize="end" android:gravity="center" android:id="@id/native_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:maxLines="2" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+            <com.google.android.gms.ads.formats.MediaView android:gravity="center" android:id="@id/ad_media" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_marginTop="10.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+            <TextView android:textColor="@color/black_alpha_99" android:ellipsize="end" android:gravity="center" android:id="@id/native_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxLines="2" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip">
+                <ImageView android:id="@id/native_icon_image" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/native_cta" android:background="@drawable/xad_btn_bg" android:paddingTop="13.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Install" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="100.0dip">
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/slogan_sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.google.android.gms.ads.formats.UnifiedNativeAdView>
